@@ -1,0 +1,33 @@
+{
+  "name": "tetris-game",
+  "version": "1.0.0",
+  "description": "Tetris game",
+  "main": "app/src/js/index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-core": "^6.4.5",
+    "babel-loader": "^6.2.1",
+    "babel-preset-es2015": "^6.0.15",
+    "copy-webpack-plugin": "^1.1.1",
+    "webpack": "^1.12.11"
+  },
+  "scripts": {
+    "build": "webpack -p",
+    "watch": "webpack --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/V11/tetris-game.git"
+  },
+  "keywords": [
+    "tetris",
+    "game"
+  ],
+  "author": "Pavel Kurochka",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/V11/tetris-game/issues"
+  },
+  "homepage": "https://github.com/V11/tetris-game#readme"
+}
